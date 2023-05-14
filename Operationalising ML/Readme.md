@@ -11,10 +11,20 @@
     * [Swagger Documentation](#swagger-documentation)
     * [Consume model endpoints](#consume-model-endpoints)
     * [Create and publish a pipeline](#create-and-publish-a-pipeline)
-* [Screen Recordin](#screen-recording)
+* [Screen Recording](#screen-recording)
 * [Standout Suggestions](#standout-suggestions)
 
 ## Overview
+The aim of this project is to operationalizing machine learning by creating a model and deploying it, so that we can get an endpoint URL that can easily be accessible by the end-user. In this project, we will be building an end-to-end Machine Learning Model on a dataset (i.e. Bank Marketing Dataset) and will be creating a model, deploying it, and consuming it, also we will be creating, publishing, and consuming a pipeline by creating a pipeline endpoint.
+
+Following step will be followed in the project:
+
+Creating Automated ML model
+Deploy the model
+Consuming the deployed model (Configuring Swagger documentation)
+Create Pipeline
+Consume created Pipeline and Deploy it
+
 This project is part of the Udacity Azure ML Nanodegree.
 In this project, we use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We also create, publish, and consume a pipeline.
 
@@ -89,8 +99,25 @@ Finally, it's time to interact with the model and feed some test data to it. We 
 After modifying both the scoring_uri and the key to match the key for my service and the URI that was generated after deployment, we see result of api. 
 
 
+### Create and publish a pipeline
 *Create a Pipeline in the SDK*
 ![Pipeline SDK](images/pipeline_1.png)
 After updating the notebook to have the same keys, URI, dataset, cluster, and model names already created, I run through the cells to create a pipeline.
 
 ![Pipeline SDK](images/pipeline_2.png)
+
+![Pipeline SDK](images/pipeline_3.png)
+
+
+![Pipeline SDK](images/pipeline_4.png)
+
+![Pipeline SDK](images/experiment.png)
+
+### Screen Recording
+
+Please see the file `run through.mp4`
+
+### standout-suggestions
+
+- balance imbalance in predictor
+- ascertain deep learning if its worth it
